@@ -1,5 +1,3 @@
-import { mount, Component } from './react'
-
 export const connect = (mapStateToProps, mapDispatchToProps) => WrappedComponent => {
   return class extends WrappedComponent {
     constructor(props) {

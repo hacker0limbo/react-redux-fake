@@ -7,9 +7,9 @@
 直接使用[raw githack](https://raw.githack.com/)或者[jsdelivr](https://www.jsdelivr.com/) cdn 链接, 这里以 `jsdelivr` 为例
 
 ```javascript
-import { Component, mount, createDOMFromString } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake/src/react.js'
-import { createStore, combineReducers, compose } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake/src/redux.js'
-import { connect } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake/src/react-redux.js'
+import { Component, mount, createDOMFromString } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/react.js'
+import { createStore, combineReducers, compose } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/redux.js'
+import { connect } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/react-redux.js'
 ```
 
 ## 示例
