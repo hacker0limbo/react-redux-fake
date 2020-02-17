@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from 'https://raw.githack.com/hacker0limbo/react-redux-fake/master/src/redux.js'
 
-const book = (state=['React'], action) => {
+const books = (state=['React'], action) => {
   switch(action.type) {
     case 'ADD_BOOK':
       return [
@@ -23,7 +23,7 @@ const book = (state=['React'], action) => {
 }
 
 const rootReducer = combineReducers({
-  book
+  books
 })
 
 const store = createStore(rootReducer)

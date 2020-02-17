@@ -4,17 +4,19 @@
 
 ## 安装:
 
-直接使用[raw githack](https://raw.githack.com/)或者[jsdelivr](https://www.jsdelivr.com/) cdn 链接, 这里以 `jsdelivr` 为例
+直接使用[raw githack](https://raw.githack.com/)或者[jsdelivr](https://www.jsdelivr.com/) cdn 链接, 这里以 `raw githack` 为例
 
 ```javascript
-import { Component, mount, createDOMFromString } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/react.js'
-import { createStore, combineReducers, compose } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/redux.js'
-import { connect } from 'https://cdn.jsdelivr.net/gh/hacker0limbo/react-redux-fake@master/src/react-redux.js'
+import { Component, mount, createDOMFromString } from 'https://raw.githack.com/hacker0limbo/react-redux-fake/master/src/react.js'
+import { createStore, combineReducers, compose } from 'https://raw.githack.com/hacker0limbo/react-redux-fake/master/src/redux.js'
+import { connect } from 'https://raw.githack.com/hacker0limbo/react-redux-fake/master/src/react-redux.js'
 ```
 
 ## 示例
 
-以下例子均以计数器为例子, `root`为页面中自定义的根元素
+[demo](https://hacker0limbo.github.io/react-redux-fake/)
+
+以下示例均以计数器为例子, `root`为页面中自定义的根元素
 
 ### React
 ```javascript
@@ -133,7 +135,7 @@ const counterWithReactRedux = new CounterWithReactRedux()
 mount(counterWithReactRedux, root)
 ```
 
-更多示例参考 [examples](https://github.com/hacker0limbo/react-redux-fake/tree/master/examples)
+更多示例参考 [examples](https://github.com/hacker0limbo/react-redux-fake/tree/master/examples), 以及[demo](https://hacker0limbo.github.io/react-redux-fake/)页面
 
 ## 参考
 - https://github.com/huzidaha/reactjs-in-40
