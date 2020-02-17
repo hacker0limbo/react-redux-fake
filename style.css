@@ -12,6 +12,8 @@ body {
 
 ul {
   padding-left: 0;
+  text-align: left;
+  margin-left: 5rem;
 }
 
 li:before {
@@ -20,4 +22,9 @@ li:before {
 
 li {
   display: inline-block;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
 }
