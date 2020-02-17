@@ -8,10 +8,12 @@ class LikeButton extends Component {
     }
   }
 
-  handleClick() {
-    this.setState({
-      liked: !this.state.liked
-    })
+  handleClick(e) {
+    if (e.target.tagName === 'BUTTON') {
+      this.setState({
+        liked: !this.state.liked
+      })  
+    }
   }
 
   render() {
